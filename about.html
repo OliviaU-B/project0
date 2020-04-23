@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Webpage</title>
+    <title>About Me</title>
     <meta name="viewport" content="width=device-width, inital-scale=1.0" />
     <link
       rel="stylesheet"
@@ -9,10 +9,61 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    Hello, world!
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Life In Lockdown</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./page-3.html">Shopping Times</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./page-4.html"
+              ><span class="sr-only">(current)</span>Activity Ideas</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="display-3">About Me</h1>
+    <div class="container">
+        <p>I have been dabbling in web development for nearly a year with the aim of pursuing a career in the field. I am working remotely whilst in lockdown but I am trying to use the time I am saving on my commute etc to improve my web development skills. Part of which is completing the CS50 Course!</p>
+        <p>So what else have I been up to in lockdown? I am locked down in a one-bed flat in East London with my partner. We are very lucky to have a lovely park at the end of the road but it is still easy to go a bit stir crazy so it's important to keep busy!
+            <ul>
+                <li>I have started running with Couch to 5k</li>
+                <li>I have been experimenting with my cooking!</li>
+                <li>I have been being creative with crafts</li>
+                <li>Supporting the charity I volunteer for</li>
+                <li>Catching up with lots of TV shows and films!</li>
+                <li>Cleaning!</li>
+            </ul>
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm"></div>
+        </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

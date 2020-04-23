@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Webpage</title>
+    <title>Shopping Times</title>
     <meta name="viewport" content="width=device-width, inital-scale=1.0" />
     <link
       rel="stylesheet"
@@ -9,10 +9,89 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    Hello, world!
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Life In Lockdown</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Me</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./page-3.html"
+              ><span class="sr-only">(current)</span>Shopping Times</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./page-4.html">Activity Ideas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="display-3">Shopping Times</h1>
+    <div class="container">
+      <p>
+        Shopping has changed significantly since we have entered lockdown! Only
+        shops selling essential items are allowed to open and opening times have
+        been significantly reduced. So I have collated lists of the opening
+        times of my nearest supermarkets here.
+      </p>
+    </div>
+    <div class="container">
+      <table class="table supermarket-table">
+        <thead>
+          <tr>
+            <th scope="col">Supermarket</th>
+            <th scope="col">Weekdays</th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sainsbury's, Newbury Park</td>
+            <td>08:00-22:00</td>
+            <td>08:00-22:00</td>
+            <td>11:00-17:00</td>
+          </tr>
+          <tr>
+            <td>Aldi, Newbury Park</td>
+            <td>08:00-22:00</td>
+            <td>08:00-22:00</td>
+            <td>10:00-16:00</td>
+          </tr>
+          <tr>
+            <td>Sainsbury's, Ilford Lane</td>
+            <td>08:00-22:00</td>
+            <td>08:00-22:00</td>
+            <td>11:00-17:00</td>
+          </tr>
+          <tr>
+            <td>Lidl, Ilford High Road</td>
+            <td>08:00-22:00</td>
+            <td>08:00-22:00</td>
+            <td>11:00-17:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
