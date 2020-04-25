@@ -72,3 +72,21 @@ h2 {
     font-size: 0.75rem;
   }
 }
+
+#supermarket-table {
+  tr:hover {
+    background-color: #f3aa99;
+  }
+}
+
+%a-list {
+  background-color: $element-background-color;
+  padding: 20px;
+  border-radius: 30px;
+  list-style: none;
+}
+
+.my-list {
+  @extend %a-list;
+  list-style-image: url("./svg/arrow-right-solid.svg");
+}
