@@ -14,7 +14,6 @@ h1 {
   color: $heading-color;
   text-align: center;
   padding: 30px;
-  margin-bottom: 30px;
 }
 h2 {
   color: $heading-color;
@@ -22,11 +21,11 @@ h2 {
   padding-bottom: 20px;
 }
 
-p {
+.main-p {
   font-weight: bold;
 }
 
-.supermarket-table {
+#supermarket-table {
   background-color: $element-background-color;
   margin-top: 30px;
 }
@@ -42,4 +41,34 @@ p {
 
 .card-button {
   background-color: $card-button-color;
+}
+
+.card-img {
+  height: 12rem;
+}
+
+@media (min-width: 650px) {
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 649px) {
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  p {
+    font-size: 0.75rem;
+  }
 }
